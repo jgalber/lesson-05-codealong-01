@@ -1,0 +1,16 @@
+.container {
+  /* display flex positions the boxes in one row - inline*/
+  display: flex;
+  /* flex direction column is acting as a default without flex */
+  /* flex-direction: column; */
+  /* flex direction row place the content as display flex */
+  flex-direction: row;
+
+}
+
+.box {
+  height: 300px;
+  width: 300px;
+  border: 30px solid purple;
+  background: yellow;
+}
